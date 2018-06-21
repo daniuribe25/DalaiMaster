@@ -118,7 +118,7 @@ a:hover {
 .hero {
   display: table;
   position: relative;
-  background-image: url(../img/portada.jpeg);
+  background-image: url(../img/portada.jpg);
   background-size: cover;
   padding: 150px 0;
   color: #fff;
@@ -153,6 +153,7 @@ a:hover {
 .hero-brand {
   margin-bottom: 75px;
   display: inline-block;
+  color: #663366;
 }
 
 .hero-brand:hover {
