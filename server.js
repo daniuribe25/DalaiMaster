@@ -59,8 +59,8 @@ function sendUserEmail(form) {
         secure: true,
         service: 'Gmail',
         auth: {
-            user: 'maestraisisk@gmail.com', // Your email id
-            pass: 'isismaestra' // Your password
+            user: 'dani.uribe25@gmail.com', // Your email id
+            pass: 'iamthebest123' // Your password
         }
     });
     var htmlContent = "<div>"+
@@ -73,8 +73,8 @@ function sendUserEmail(form) {
                         "<span style='font-weight: 600'>   Mensaje:</span>  "+form.message+"<br /><br />"+
                     "</div>";
     var mailOptions = {
-        from: 'maestraisisk@gmail.com', // sender address
-        to: 'maestraisisk@gmail.com', // list of receivers
+        from: 'dani.uribe25@gmail.com', // sender address
+        to: 'dani.uribe25@gmail.com', // list of receivers
         // to: 'dani.uribe25@gmail.com',
         subject: 'Nuevo contacto de '+ form.name, // Subject line
         text:  '',//, // plaintext body
